@@ -1,0 +1,20 @@
+document.getElementById("calculate").addEventListener("click", function() {
+
+    let plan = document.getElementById("plan").value;
+    let months = document.getElementById("months").value;
+    let discount = document.getElementById("discount").checked;
+
+    if (months === "" || months <= 0) {
+        document.getElementById("result").innerText = "Ievadiet pareizu mēnešu skaitu!";
+        return;
+    }
+
+    let total = plan * months;
+
+    if (discount) {
+        total = total * 0.9;
+    }
+
+    document.getElementById("result").innerText =
+        "Kopējā cena: " + total + " €";
+});
