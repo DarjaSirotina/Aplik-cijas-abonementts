@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikācijas abonements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Aplikācijas abonements</h1>
+<p>Izvēlieties abonementa plānu un periodu</p>
+
+<div class="container">
+
+    <label>Plāns:</label>
+    <select id="plan">
+        <option value="5">Basic (5€ / mēnesī)</option>
+        <option value="10">Pro (10€ / mēnesī)</option>
+        <option value="15">Premium (15€ / mēnesī)</option>
+    </select>
+
+    <label>Mēnešu skaits:</label>
+    <input type="number" id="months" min="1">
+
+    <label>
+        <input type="checkbox" id="discount">
+        Studentu atlaide (10%)
+    </label>
+
+    <button id="calculate">Aprēķināt</button>
+
+    <p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
