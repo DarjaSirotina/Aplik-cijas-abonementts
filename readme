@@ -1,0 +1,17 @@
+# Aplikācijas abonements
+
+## Apraksts
+Mājaslapa ļauj lietotājam izvēlēties aplikācijas abonementa plānu un aprēķināt kopējo cenu.
+
+## Funkcionalitāte
+- Plāna izvēle
+- Mēnešu ievade
+- Atlaides piemērošana
+- Automātisks cenas aprēķins
+- Datu validācija
+
+## Lietošana
+1. Izvēlieties plānu
+2. Ievadiet mēnešu skaitu
+3. (Pēc izvēles) atzīmējiet atlaidi
+4. Nospiediet "Aprēķināt"
